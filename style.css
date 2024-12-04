@@ -1,0 +1,121 @@
+
+.rectangle-2 * {
+    box-sizing: border-box;
+  }
+  .rectangle-2 {
+    background: #d9d9d9;
+    border-radius: 17px;
+    height: 298px;
+    position: relative;
+  }
+  .csapat-1 * {
+    box-sizing: border-box;
+  }
+  .csapat-1 {
+    color: #000000;
+    text-align: left;
+    font-family: "PaytoneOne-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    height: 52px;
+  }
+  .csapat-tagok-nevei * {
+    box-sizing: border-box;
+  }
+  .csapat-tagok-nevei {
+    color: #000000;
+    text-align: left;
+    font-family: "PaytoneOne-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    height: 230px;
+  }
+  .csapat-2 * {
+    box-sizing: border-box;
+  }
+  .csapat-2 {
+    color: #000000;
+    text-align: left;
+    font-family: "PaytoneOne-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    height: 60px;
+  }
+  .id-korlat * {
+    box-sizing: border-box;
+  }
+  .id-korlat {
+    color: #000000;
+    text-align: center;
+    font-family: "PaytoneOne-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    height: 70px;
+  }
+  .rectangle-4 * {
+    box-sizing: border-box;
+  }
+  .rectangle-4 {
+    background: #d9d9d9;
+    border-radius: 56px;
+    height: 298px;
+    position: relative;
+  }
+  .ido {
+    box-sizing: border-box;
+  }
+  ._ido {
+    color: #000000;
+    text-align: center;
+    font-family: "PaytoneOne-Regular", sans-serif;
+    font-size: 128px;
+    font-weight: 400;
+    position: relative;
+    height: 186px;
+  }
+  .minus-circle * {
+    box-sizing: border-box;
+  }
+  .minus-circle {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    overflow: visible;
+  }
+  .plus-circle * {
+    box-sizing: border-box;
+  }
+  .plus-circle {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    overflow: visible;
+  }
+  .rectangle-5 * {
+    box-sizing: border-box;
+  }
+  .rectangle-5 {
+    background: #9f0000;
+    border-radius: 99.5px;
+    height: 199px;
+    position: relative;
+  }
+  .kezd-s * {
+    box-sizing: border-box;
+  }
+  .kezd-s {
+    color: #000000;
+    text-align: center;
+    font-family: "SigmarOne-Regular", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    position: relative;
+    height: 126px;
+  }
+  
+  
+  
