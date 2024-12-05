@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+.keret1{
+    background-color: rgba(128, 128, 128, 0.61);
+    margin-left: 10%;
+    margin-right: 10%;
+    
+   
+  
+}
+label,input {
+    display: block;
+    width: 150px;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+body {
+    text-align: center;
+    background-image: url(9-A-SIDE\ Pitch\ Dimensions.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    display: inline-block;
+}
