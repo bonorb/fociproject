@@ -1,7 +1,20 @@
-body{
+body
+{
   background-image: url(img/hat2.jpg);
   background-repeat: no-repeat;
   background-size:cover ;
   
 
+}
+aside
+{
+  background-color: rgba(128, 128, 128);
+  margin-left: 77%;
+  
+  font-size: 18px;
+  font-weight: 40;
+  border-radius: 95px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
