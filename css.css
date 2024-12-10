@@ -5,7 +5,10 @@ h1{
     background-color: rgba(128, 128, 128, 0.61);
     margin-left: 10%;
     margin-right: 10%;
-    
+    font-size: 30;
+    font-weight: 40;
+    border-radius: 99.5px;
+
    
   
 }
