@@ -37,11 +37,33 @@ function kiiras() {
       aside.innerHTML += `<li>${element.name} - ${element.time}</li>`;
     });
   }
+
+  //Ákos 12 10 napon irta
   
+  function csapat1() {
+    let elsocsapat = document.getElementById("csapat1_nev");
+  
+    aside.innerHTML = "";
+  
+    lista.forEach((element) => {
+      aside.innerHTML += `<li>${element.name} - ${element.time}</li>`;
+    });
+  }
+
+  function csapat2() {
+    let masodikcsapat = document.getElementById("csapat2_nev");
+  
+    aside.innerHTML = "";
+  
+    lista.forEach((element) => {
+      aside.innerHTML += `<li>${element.name} - ${element.time}</li>`;
+    });
+  }
+
 
 function gomb() {
     let nev = document.getElementById("nev").value;
-    let ido = 120000;
+    let ido = 120000
     let idoszal = setInterval(tick, 1000);
   
     lista.push({ name: nev, time: ido });
