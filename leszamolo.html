@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Foci meccst</title>
+
+ 
+    <title>Foci meccset</title>
 </head>
 <body>
-    <div>
+   
 
-
+    <!--
         <main>
             <section>
                 <form action="">
@@ -28,6 +30,9 @@
         </main>
         <aside>
             <div> 
+
+                <button id="btncounter" onclick="btcounter()">Click me!!!!</button>
+                <p id="result"></p>
                 <form action="">
                     <label for="kiallit1">Adja meg a kiállítandó csapattag nevét: </label>
                     <input type="text" name="nev" id="kiallit1">
@@ -38,21 +43,30 @@
                     <label for="plusszido">Hoszabbítás</label>
                     <input type="number" name="plussz" id="plusszido">
                     <br>
-                    <label for="csapat1_gol"><!-- csapat neve--></label>
+                    <label for="csapat1_gol"> </label>
                     <input type="text" name="gol1+" id="csapat1_gol+">
                     <input type="text" name="gol1-" id="csapat1_gol-">
                     <br>
-                    <label for="csapat2_gol"><!-- csapat neve--></label>
+                    <label for="csapat2_gol"></label>
                     <input type="text" name="gol2+" id="csapat2_gol+">
                     <input type="text" name="gol2-" id="csapat2_gol-">
                 </form>
         </div>
+    -->
+<div>
+    <h1>Csapat1</h1><br>
+    <h1 id="csap1"></h1> <br>
+    <button type="button" onclick="csapat1minus()" id="csapat1_gol">-</button> <br>
+    <button  onclick="csapat1plus()" type="button" id="csapat1_gol-">+</button> <br>
+</div>
 
-        </aside>
+    <div>
+    <h1>Csapat2</h1><br>
+    <h1 id="csap2"></h1> <br>
+    <button type="button" onclick="csapat2minus()" id="csapat2_gol">-</button> <br>
+    <button  onclick="csapat2plus()" type="button" id="csapat2_gol-">+</button> <br>
+</div>
 
-    </div>
-
-    
 
 
 
