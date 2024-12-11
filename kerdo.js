@@ -27,6 +27,18 @@ function csapat2plus(){
     document.getElementById('csap2').innerHTML = gol2;
 
 }
+
+function kiiras() {
+    let aside = document.getElementById("felcsut");
+  
+    aside.innerHTML = "";
+  
+    lista.forEach((element) => {
+      aside.innerHTML += `<li>${element.name} - ${element.time}</li>`;
+    });
+  }
+  
+
 function gomb() {
     let nev = document.getElementById("nev").value;
     let ido = 120000;
