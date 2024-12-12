@@ -64,7 +64,7 @@ function kiiras() {
 
 function gomb() {
     let nev = document.getElementById("nev").value;
-    let ido = 2
+    let ido = 120
     let idoszal = setInterval(tick, 1000);
   
     jatekos_lista.push({ name: nev, time: ido });

@@ -18,15 +18,15 @@ body
   color: white;
   font-weight: bolder;
   font-size:x-large;
+  justify-content: center;
   
-  
+
 }
 .jatekos2{
   background-color: rgb(11, 0, 109);
   margin-left: auto;
   border-radius: 17px;
   height: 298px;
-  text-align: center;
   border: 3px, solid, black;
   width: 600px;
   position: absolute;
@@ -35,11 +35,11 @@ body
   color: white;
   font-weight: bolder;
   font-size:x-large;
+  justify-content: center;
+  text-align: center;
+
 
 }
-
-
-
 div{
   display: flex;
 }
@@ -91,7 +91,7 @@ div{
 }
 
 .golstilus{
-  background-color: rgb(71, 63, 46);
+  background-color: rgb(97, 97, 97);
   margin-right: auto;
   border-radius: 20px;
   height: 125;
@@ -102,4 +102,52 @@ div{
   position: absolute;
   top: 122px;
   left: 0;
+  height: 298px;
+  border: 3px, solid, black;
+  width: 600px;
+  font-weight: bolder;
 } 
+
+.button {
+  background-color: #2f3d47;
+  border:2px, solid, black  ;
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
+section{
+  background-color: black;
+  border-radius: 30px;
+  width: 650px;
+  height: 300px;
+  text-align: center;
+  border: 3px, solid, white;
+  color: white;
+  margin: auto;
+  margin-top: 280px;
+  font-weight: bolder;
+  font-size: 550%;
+
+
+}
+article{
+  background-color: rgb(97, 97, 97);
+  margin-right: auto;
+  border-radius: 20px;
+  height: 125;
+  text-align: center;
+  border: 3px, solid, black;
+  width: 600px;
+  color: aliceblue;
+  position: absolute;
+  top: 444px;
+  left: 0;
+  height: 298px;
+  border: 3px, solid, black;
+  width: 600px;
+
+}
