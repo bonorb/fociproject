@@ -33,4 +33,9 @@ body {
 form {
     display: inline-block;
 }
-
+span{
+    background-color:#2D3047;
+    color:#EFD0CA;
+    font-size:20px;
+    text-align:center;
+}

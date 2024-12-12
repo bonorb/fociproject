@@ -1,3 +1,4 @@
+// 1210 norb irta
 let gol1 = 0;
 let gol2 = 0;
 let jatekos_lista = [];
@@ -82,3 +83,4 @@ function tick(){
     }
     kiiras();
 }
+//1212 norb
