@@ -1,129 +1,66 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
 
- 
     <title>Foci meccset</title>
-</head>
-<body>
-   
-
-    <!--
-        <main>
-            <section>
-                <form action="">
-
-
-
-
-                </form>
-
-            </section>
-            <section class="szamolo">
-                
-
-            </section>
-        </main>
-        <aside>
-            <div> 
-
-                <button id="btncounter" onclick="btcounter()">Click me!!!!</button>
-                <p id="result"></p>
-                <form action="">
-                    <label for="kiallit1">Adja meg a kiállítandó csapattag nevét: </label>
-                    <input type="text" name="nev" id="kiallit1">
-                    <br>
-                    <label for="kiallit2">Adja meg a kiállítandó csapattag nevét: </label>
-                    <input type="text" name="nev" id="kiallit2">
-                    <br>
-                    <label for="plusszido">Hoszabbítás</label>
-                    <input type="number" name="plussz" id="plusszido">
-                    <br>
-                    <label for="csapat1_gol"> </label>
-                    <input type="text" name="gol1+" id="csapat1_gol+">
-                    <input type="text" name="gol1-" id="csapat1_gol-">
-                    <br>
-                    <label for="csapat2_gol"></label>
-                    <input type="text" name="gol2+" id="csapat2_gol+">
-                    <input type="text" name="gol2-" id="csapat2_gol-">
-                </form>
+  </head>
+  <body>
+    <aside class="golstilus">
+        <div >
+            <h1>Csapat1</h1>
+            <br />
+            <h1 id="csap1"></h1>
+            <br />
+            <button type="button" onclick="csapat1minus()" id="csapat1_gol">-</button>
+            <br />
+            <button onclick="csapat1plus()" type="button" id="csapat1_gol-">+</button>
+            <br />
         </div>
-    -->
-<div>
-    <h1>Csapat1</h1><br>
-    <h1 id="csap1"></h1> <br>
-    <button type="button" onclick="csapat1minus()" id="csapat1_gol">-</button> <br>
-    <button  onclick="csapat1plus()" type="button" id="csapat1_gol-">+</button> <br>
-</div>
 
-    <div>
-    <h1>Csapat2</h1><br>
-    <h1 id="csap2"></h1> <br>
-    <button type="button" onclick="csapat2minus()" id="csapat2_gol">-</button> <br>
-    <button  onclick="csapat2plus()" type="button" id="csapat2_gol-">+</button> <br>
-</div>
-
-<main>
-    <div class="jatekos1">
+        <div>
+        <h1>Csapat2</h1>
+        <br />
+        <h1 id="csap2"></h1>
+        <br />
+        <button type="button" onclick="csapat2minus()" id="csapat2_gol">-</button>
+        <br />
+        <button onclick="csapat2plus()" type="button" id="csapat2_gol-">+</button>
+        <br />
+        </div>
+    </aside>
+    <main>
+      <div class="jatekos1">
         <form action="">
-            <h1 id="csapat1_nev"></h1>
-            <label for="nev">Adja meg a nevét</label>
-            <input type="text" name="neve" id="nev">
-            <br>
-            <label for="ido">Adja meg az időt</label>
-            <input type="number" name="ideje" id="ido" min="1" max="9999">
-            <br>
-            <button type="button" onclick="gomb()">beküldés</button>
+          <h1 id="csapat1_nev"></h1>
+          <label for="nev">Adja meg a nevét</label>
+          <input type="text" name="neve" id="nev" />
+          <br />
+          <button type="button" onclick="gomb()">beküldés</button>
         </form>
         <aside>
-            <ul id="felcsut">
-
-
-            </ul>
+          <ul id="felcsut"></ul>
         </aside>
-    </div>
-    <div class="jatekos2">
+      </div>
+      <div class="jatekos2">
         <form action="">
-
-            <h1 id="csapat1_nev"></h1>
-            <label for="nev">Adja meg a nevét</label>
-            <input type="text" name="neve" id="nev">
-            <br>
-            <label for="ido">Adja meg az időt</label>
-            <input type="number" name="ideje" id="ido" min="1" max="9999">
-            <br>
-            <button type="button" onclick="gomb()">beküldés</button>
+          <h1 id="csapat1_nev"></h1>
+          <label for="nev">Adja meg a nevét</label>
+          <input type="text" name="neve" id="nev" />
+          <br />
+          <button type="button" onclick="gomb()">beküldés</button>
         </form>
         <aside>
-            <ul id="felcsut">
-
-
-            </ul>
+          <ul id="felcsut"></ul>
         </aside>
-    </div>
-    <h1 class="szamlalo" >Időszámláló!!!!</h1>
-    <div id="countdown">
-
-
-    <div class="time">
-        
-        <h2 id="hours">00</h2>
-    </div>
-    <div class="time">
-        <h2 id="minutes">00</h2>
-    </div>
-    <div class="time">
-        <h2 id="ms">00</h2>
-    </div>
-</div>
-</main>
-
-
+      </div>
+      
+      </div>
+    </main>
 
     <script src="kerdo.js"></script>
-</body>
+  </body>
 </html>

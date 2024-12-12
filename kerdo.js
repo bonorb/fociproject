@@ -34,7 +34,7 @@ function kiiras() {
   
     aside.innerHTML = "";
   
-    lista.forEach((element) => {
+    jatekos_lista.forEach((element) => {
       aside.innerHTML += `<li>${element.name} - ${element.time}</li>`;
     });
   }
@@ -46,7 +46,7 @@ function kiiras() {
   
     aside.innerHTML = "";
   
-    lista.forEach((element) => {
+    jatekos_lista.forEach((element) => {
       aside.innerHTML += `<li>${element.name} - ${element.time}</li>`;
     });
   }
@@ -56,7 +56,7 @@ function kiiras() {
   
     aside.innerHTML = "";
   
-    lista.forEach((element) => {
+    jatekos_lista.forEach((element) => {
       aside.innerHTML += `<li>${element.name} - ${element.time}</li>`;
     });
   }
@@ -64,10 +64,10 @@ function kiiras() {
 
 function gomb() {
     let nev = document.getElementById("nev").value;
-    let ido = 120000
+    let ido = 2
     let idoszal = setInterval(tick, 1000);
   
-    lista.push({ name: nev, time: ido });
+    jatekos_lista.push({ name: nev, time: ido });
   
 }  
 
