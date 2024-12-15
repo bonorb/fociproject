@@ -151,3 +151,34 @@ article{
   width: 600px;
 
 }
+.szamlaloo{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    color: white;
+}
+.mcss{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+}
+.m2{
+  background-color: black;
+  border-radius: 30px;
+  width: 650px;
+  height: 300px;
+  text-align: center;
+  border: 3px, solid, white;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 550%;
+}
+.masd2{
+  text-align: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto
+}

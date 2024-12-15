@@ -2,7 +2,7 @@
 let gol1 = 0;
 let gol2 = 0;
 let jatekos_lista = [];
-
+let idoszalolo = setInterval(countdown, 1000);
 
 function csapat1minus(){
     if (gol1 > 0)
@@ -83,4 +83,3 @@ function tick(){
     }
     kiiras();
 }
-//1212 norb

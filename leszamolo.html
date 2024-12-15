@@ -5,47 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    
 
     <title>Foci meccset</title>
   </head>
   <body>
     <aside class="golstilus">
-        <div >
-            <h1>Csapat1</h1>
+        <p id="felido">Első félidő</p>
+       
+        <p id="countdowner">45:00</p>
+        <p>Hosszabbítási esélyek:</p>
+        <p id="szamlaloooo"></p>
+        <p></p>
+        <button onclick="addTime(3)">Adj hozza 3 percet</button>
+        <button onclick="addTime(4)">Adj hozza 4 percet </button>
+        <button onclick="addTime(5)">Adj hozza 5  percet</button>
+       
+
+        
+       
+       
+    </aside>
+    <article>
+     <div >
+         
+            <h1>Csapat1 </h1> <h1> ----    </h1> <br>
             <br />
             <h1 id="csap1"></h1>
             <br />
-            <button type="button" onclick="csapat1minus()" id="csapat1_gol">-</button>
+            <h2> ----</h2> <button type="button" onclick="csapat1minus()" id="csapat1_gol">-</button>
             <br />
-            <button onclick="csapat1plus()" type="button" id="csapat1_gol-" >+</button>
+            <h2> ----</h2>  <button onclick="csapat1plus()" type="button" id="csapat1_gol-" >+</button>
             <br />
         </div>
 
         <div>
-        <h1>Csapat2</h1>
+       
+        <h1>Csapat2</h1> <h2> ----     </h2> <br>
         <br />
-        <h1 id="csap2"></h1>
+        <h1 id="csap2"></h1> <br>
+        <br /> 
+        <br>
+         <h2> ----</h2>  <button type="button" onclick="csapat2minus()" id="csapat2_gol">-</button> 
         <br />
-        <button type="button" onclick="csapat2minus()" id="csapat2_gol">-</button>
-        <br />
-        <button onclick="csapat2plus()" type="button" id="csapat2_gol-">+</button>
+        <h2> ----</h2> <button onclick="csapat2plus()" type="button" id="csapat2_gol-">+</button>
         <br />
         </div>
-    </aside>
-    <article>
-
-
+        
 
 
     </article>
+
     <!--plussz idő -->
-    <section>
-        <p>a</p>
-
-
-    </section>
+    <div  class="mcss">
+      <h1 >Eredményjelző</h1> <br>
+      
+        </div>
     <!--idáig-->
-
+    <h1 class="masd2">Második félidő</h1>
+        <div class="m2">
+           
+          <p  class="masd2" id="masodikfelido">45:00</p> 
+           
+        </div>
     <main>
       <div class="jatekos1">
         <form action="">
@@ -57,24 +79,32 @@
         </form>
         <aside>
           <ul id="felcsut"></ul>
+         
         </aside>
       </div>
 
       <div class="jatekos2">
         <form action="">
-          <h1 id="csapat1_nev"></h1>
+          <h1 id="csapat_nev"></h1>
           <label for="nev">Adja meg a nevét a játékosnak</label>
           <input type="text" name="neve" id="nev" />
           <br />
           <button type="button" onclick="gomb()" class="button">beküldés</button>
         </form>
         <aside>
-          <ul id="felcsut"></ul>
+          <ul id="felcsut2"></ul>
         </aside>
       </div>
       </div>
+      
+        
+
     </main>
+    <div>
+       <p id="countdown">45:00</p>
+    </div>
 
     <script src="kerdo.js"></script>
+    <script src="js.js"></script>
   </body>
 </html>
